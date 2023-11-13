@@ -19,7 +19,7 @@ jobs:
 
       - name: Test
         run: |
-            npm run test-headless 
+            npm run test
       
       - name: build react
         run: npm run build
