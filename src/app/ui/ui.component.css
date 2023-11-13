@@ -1,66 +1,32 @@
+:root {
+    --primary-color: #db1414;
+    --secondary-color: black;
+    --tertiary-color: blue;
+    --quaternary-color: rgb(255, 7, 7);
+    --quinary-color: rgb(9, 255, 0);
+    --senary-color: rgb(245, 208, 0);
+}
+
 .calculator {
     width: 150px;
     text-align: center;
-    color: #999;
+    color: var(--primary-color);
 }
 
 .result {
     font-size: 3.0em;
     font-weight: bold;
-    color: red;
-
+    color: rgb(0, 60, 255);
 }
 
 .operator1 {
     font-size: 1.5em;
     font-weight: bold;
-    color: black;
-
+    color: var(--secondary-color);
 }
 
 .operator2 {
     font-size: 1.5em;
     font-weight: bold;
-    color: blue;
-
-}
-
-.addition-button {
-    cursor: pointer;
-    color: blue;
-}
-
-.substraction-button {
-    cursor: pointer;
-    color: green;
-}
-
-.div-button {
-    cursor: pointer;
-    color: black;
-    font-size: 18px;
-}
-
-.exp-button {
-    cursor: pointer;
-    color: black;
-    font-size: 18px;
-}
-
-.mul-button {
-    cursor: pointer;
-    color: black;
-    font-size: 18px;
-}
-
-.sqr-button {
-    cursor: pointer;
-    color: black;
-    font-size: 18px;
-}
-
-.sqrt-button {
-    cursor: pointer;
-    color: black;
-    font-size: 18px;
+    color: var(--tertiary-color);
 }
